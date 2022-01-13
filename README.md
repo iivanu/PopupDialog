@@ -16,6 +16,7 @@
 # Introduction
 
 Popup Dialog is a simple, customizable popup dialog written in Swift.
+This version supports Swift Package Manager
 
 <img align="left" src="https://github.com/Orderella/PopupDialog/blob/master/Assets/PopupDialog01.gif?raw=true" width="300">
 <img src="https://github.com/Orderella/PopupDialog/blob/master/Assets/PopupDialog02.gif?raw=true" width="300">
