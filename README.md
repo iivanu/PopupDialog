@@ -37,35 +37,9 @@ This version supports Swift Package Manager
 <p>&nbsp;</p>
 
 # Installation
-
-This version is Swift 5 compatible. For the Swift 4.2 version, please use [V1.0.0](https://github.com/Orderella/PopupDialog/releases/tag/1.0.0).
-
-## CocoaPods
-
-PopupDialog is available through [CocoaPods](http://cocoapods.org). Simply add the following to your Podfile:
-
-```ruby
-use_frameworks!
-
-target '<Your Target Name>'
-pod 'PopupDialog', '~> 1.1'
-```
-
-## Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. A minimum version of `0.17` is required.
-
-To install, simply add the following lines to your Cartfile:
-
-```ruby
-github "Orderella/PopupDialog" ~> 1.1
-```
-
-## Manually
-
-If you prefer not to use either of the above mentioned dependency managers, you can integrate PopupDialog into your project manually by adding the files contained in the [Classes](https://github.com/trungp/PopupDialog/tree/master/PopupDialog/Classes)
-folder to your project. Moreover, you have to manually add the classes of [DynamicBlurView](https://github.com/KyoheiG3/DynamicBlurView/tree/master/DynamicBlurView) to your project.
-
+- Go to File -> Swift Packages -> Add Package Dependency...
+- Then search for https://github.com/iivanu/PopupDialog.git
+- And choose the version you want
 
 <p>&nbsp;</p>
 
