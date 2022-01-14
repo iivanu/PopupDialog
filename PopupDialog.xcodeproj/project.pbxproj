@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		999CDCA827901F83006EA608 /* DynamicBlurView in Frameworks */ = {isa = PBXBuildFile; productRef = 999CDCA727901F83006EA608 /* DynamicBlurView */; };
+		994986F72791624A00AC7B00 /* DynamicBlurView in Frameworks */ = {isa = PBXBuildFile; productRef = 994986F62791624A00AC7B00 /* DynamicBlurView */; };
 		OBJ_49 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* InteractiveTransition.swift */; };
 		OBJ_50 /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* PopupDialog+Keyboard.swift */; };
 		OBJ_51 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* PopupDialog.swift */; };
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				999CDCA827901F83006EA608 /* DynamicBlurView in Frameworks */,
+				994986F72791624A00AC7B00 /* DynamicBlurView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -166,7 +166,6 @@
 				OBJ_42 /* README.md */,
 				OBJ_43 /* CONTRIBUTING.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -217,7 +216,7 @@
 			);
 			name = PopupDialog;
 			packageProductDependencies = (
-				999CDCA727901F83006EA608 /* DynamicBlurView */,
+				994986F62791624A00AC7B00 /* DynamicBlurView */,
 			);
 			productName = PopupDialog;
 			productReference = "PopupDialog::PopupDialog::Product" /* PopupDialog.framework */;
@@ -270,9 +269,9 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			packageReferences = (
-				999CDCA627901F83006EA608 /* XCRemoteSwiftPackageReference "DynamicBlurView" */,
+				994986F52791624A00AC7B00 /* XCRemoteSwiftPackageReference "DynamicBlurView" */,
 			);
 			productRefGroup = OBJ_32 /* Products */;
 			projectDirPath = "";
@@ -608,20 +607,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		999CDCA627901F83006EA608 /* XCRemoteSwiftPackageReference "DynamicBlurView" */ = {
+		994986F52791624A00AC7B00 /* XCRemoteSwiftPackageReference "DynamicBlurView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/KyoheiG3/DynamicBlurView";
+			repositoryURL = "https://github.com/iivanu/DynamicBlurView";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		999CDCA727901F83006EA608 /* DynamicBlurView */ = {
+		994986F62791624A00AC7B00 /* DynamicBlurView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 999CDCA627901F83006EA608 /* XCRemoteSwiftPackageReference "DynamicBlurView" */;
+			package = 994986F52791624A00AC7B00 /* XCRemoteSwiftPackageReference "DynamicBlurView" */;
 			productName = DynamicBlurView;
 		};
 /* End XCSwiftPackageProductDependency section */
